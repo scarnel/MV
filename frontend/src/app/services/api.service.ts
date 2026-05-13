@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ApiService {
 
-  url = 'http://localhost:3000';
+  url = 'http://bdc.arequipa.space/api';
 
   constructor(private http: HttpClient) {}
 
